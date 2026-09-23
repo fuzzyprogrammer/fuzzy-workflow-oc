@@ -1,0 +1,43 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "default_agent": "orchestrator",
+
+  // Single-repo vendored plugins and skills
+  "plugins": [
+    "./.opencode/vendor/superpowers",
+    "./.opencode/vendor/marketingskills",
+    "./.opencode/vendor/ui-ux-pro-max",
+    "./.opencode/vendor/opencode-seo-architect",
+    "./.opencode/vendor/emilkowalski-skills",
+    "./.opencode/vendor/shadcn-ui",
+    "./.opencode/vendor/vercel-agent-skills",
+    "./.opencode/vendor/agent-browser"
+  ],
+
+  // Shared locale and template references
+  "references": {
+    "i18n-locales": {
+      "path": "./shared/locales",
+      "description": "Indian regional (Hindi, Tamil, Telugu, Marathi, Gujarati, Bengali) and global locale translation keys"
+    },
+    "tool-templates": {
+      "path": "./shared/templates",
+      "description": "Client-side hyper-niche utility tool boilerplates"
+    }
+  },
+
+  // Session warming to preserve LLM prompt caches during user decision pauses
+  "warming": {
+    "interval": "4 minutes",
+    "duration": "30 minutes"
+  },
+
+  // Tool & subagent execution permissions
+  "permissions": [
+    { "action": "subagent", "resource": "*", "effect": "allow" },
+    { "action": "shell", "resource": "git *", "effect": "allow" },
+    { "action": "shell", "resource": "bun *", "effect": "allow" },
+    { "action": "shell", "resource": "agent-browser *", "effect": "allow" },
+    { "action": "question", "resource": "*", "effect": "allow" }
+  ]
+}
