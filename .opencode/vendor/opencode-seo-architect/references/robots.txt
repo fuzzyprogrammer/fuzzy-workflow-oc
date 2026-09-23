@@ -1,0 +1,30 @@
+User-agent: *
+Allow: /
+
+# Explicit Allowances for LLM Agents
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Anthropic-AI
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+# Host
+Host: https://seoservicelearn.com
+
+# Sitemaps
+Sitemap: https://seoservicelearn.com/sitemap.xml

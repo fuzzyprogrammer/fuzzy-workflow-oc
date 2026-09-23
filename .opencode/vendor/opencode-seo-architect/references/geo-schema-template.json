@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebApplication",
+      "@id": "https://example.com",
+      "url": "https://example.com",
+      "name": "Target Utility Name",
+      "applicationCategory": "UtilityApplication",
+      "operatingSystem": "All",
+      "description": "Provide a concise, direct 1-sentence description detailing exact input and output transformations for the AI engine to read.",
+      "browserRequirements": "Requires HTML5 support",
+      "permissions": "anonymous",
+      "offers": {
+        "@type": "Offer",
+        "price": "0.00",
+        "priceCurrency": "USD"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://example.com#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Direct, plain-language question?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A clear, factual answer starting directly with the resolution. No introductory fluff."
+          }
+        }
+      ]
+    }
+  ]
+}

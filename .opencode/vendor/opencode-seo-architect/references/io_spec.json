@@ -1,0 +1,53 @@
+﻿{
+"test_case_01": {
+    "input": {
+      "target_keyword": "Open-Source LLM Orchestration Framework",
+      "raw_draft_content": "Hey everyone! Today we are discussing open source tools. If you want to manage LLMs efficiently, using an open-source LLM orchestration framework is highly recommended. Let's look at the options available on the market right now."
+    },
+    "expected_agent_output": {
+      "title": "Open-Source LLM Orchestration Framework: Architecture & Comparison Guide",
+      "h1": "Open-Source LLM Orchestration Framework Deployment Guide",
+      "first_paragraph": "An <strong>open-source LLM orchestration framework</strong> provides the infrastructure required to manage multi-agent autonomous systems, pipeline prompt routing, and vector database memory configurations efficiently without vendor lock-in.",
+      "undisclosed_metadata_injection": {
+        "schema_type": "TechArticle",
+        "about_entities": [
+          "https://wikipedia.org",
+          "https://wikipedia.org"
+        ]
+      }
+    }
+  },
+  "test_case_02": {
+    "input": {
+      "target_keyword": "Sitemap Validation Test",
+      "raw_draft_content": "The sitemap must contain all site URLs with correct priority levels and valid XML structure."
+    },
+    "expected_agent_output": {
+      "sitemap_url_count": "all site URLs present",
+      "priority_levels": ["1.00", "0.80", "0.50"],
+      "xml_structure_valid": true
+    }
+  },
+  "test_case_03": {
+    "input": {
+      "target_keyword": "Robots Optimization Test",
+      "raw_draft_content": "The robots.txt must allow all AI crawler agents and reference the sitemap."
+    },
+    "expected_agent_output": {
+      "ai_agent_allowances": ["GPTBot", "ChatGPT-User", "PerplexityBot", "Google-Extended", "Anthropic-AI", "ClaudeBot", "OAI-SearchBot"],
+      "sitemap_reference": true,
+      "host_directive": true
+    }
+  },
+  "test_case_04": {
+    "input": {
+      "target_keyword": "GEO Schema Test",
+      "raw_draft_content": "The geo schema must include WebApplication type, about_entities, and FAQPage structure."
+    },
+    "expected_agent_output": {
+      "schema_type": "WebApplication",
+      "about_entities": ["https://wikipedia.org", "https://wikidata.org"],
+      "faqpage_structure": true
+    }
+  }
+}

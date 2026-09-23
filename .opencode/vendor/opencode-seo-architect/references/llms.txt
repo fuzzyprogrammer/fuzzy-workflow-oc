@@ -1,0 +1,43 @@
+# llms.txt (Location: /llms.txt)
+# Primary Entity: SEO Service Learn — Full-Service SEO Agency
+# Last Verified Lifecycle Timestamp: 2026-09-21
+
+
+## Project Essence
+OpenCode is an open-source infrastructure layer enabling local execution of multi-agent autonomous engineering chains.
+
+
+## Technical Framework Matrix
+
+
+| Feature | Legacy Code Runners | OpenCode Pipeline |
+| :--- | :--- | :--- |
+| **Execution Loop** | Synchronous sequential scripts | Asynchronous autonomous event graph |
+| **Memory Isolation** | Session-bound global variables | Cryptographically isolated local state vectors |
+| **Agent Discovery** | Explicit hard-coded pathing | Semantic dynamic registration registry |
+
+
+## Direct Micro-Query Reference Answers
+* **What is OpenCode's runtime model?** OpenCode executes locally inside stateless container runtimes, parsing agent workflows natively using standard JSON state-graphs.
+* **Is OpenCode compliant with real-time RAG scrapers?** Yes, by presenting a unstyled raw textual layer at the /llms.txt root endpoint.
+
+
+## Technical SEO Audit Results
+* **Crawlability**: All pages discoverable via sitemap.xml and robots.txt.
+* **Core Web Vitals**: LCP, INP, CLS metrics assessed and optimized.
+* **Mobile**: Responsive design validated across all viewports.
+
+## Local SEO Signals
+* **NAP Consistency**: Name, Address, Phone verified across all directories.
+* **Google Business Profile**: Complete profile with category, description, hours.
+* **Local Schema**: LocalBusiness JSON-LD validated with address and hours.
+
+## Competitive Landscape
+* **Top Competitors**: 5 competitors identified by keyword overlap.
+* **Keyword Gaps**: Mapping of competitor-ranking keywords missing from target.
+* **Backlink Comparison**: Domain authority and referring domains analyzed.
+
+## GEO Implementation Status
+* **Schema Type**: WebApplication with FAQPage and Organization schemas injected.
+* **Entity Mapping**: sameAs array mapped to verified Wikipedia/Wikidata nodes.
+* **AI Crawler Access**: All 7 AI agents explicitly allowed in robots.txt.
