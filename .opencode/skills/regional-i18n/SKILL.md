@@ -1,6 +1,6 @@
 ---
-name: Regional & Global Localization
-description: Rules for multi-language scripts, font fallbacks, and localized SEO routes
+name: regional-i18n
+description: Rules for multi-language scripts, font fallbacks, and localized SEO routes. Use when adding locales, translation keys, hreflang tags, or Indian/global language support (hi, ta, te, mr, gu, bn, es, fr, de, pt, ja).
 ---
 
 ## Localization Checklist

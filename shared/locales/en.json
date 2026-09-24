@@ -1,0 +1,11 @@
+{
+  "brand": {
+    "name": "openpixal",
+    "tagline": "Hyper-niche utility tools built mobile-first"
+  },
+  "common": {
+    "loading": "Loading…",
+    "error": "Something went wrong",
+    "retry": "Try again"
+  }
+}

@@ -1,6 +1,6 @@
 ---
-name: Hyper-Niche Tool Builder
-description: Standard operating procedures for client-side web utility tools
+name: hyper-niche-tool
+description: Standard operating procedures for client-side web utility tools. Use when scaffolding, building, or editing a hyper-niche calculator, converter, or browser-only utility in this agency workflow.
 ---
 
 ## Tool Development Protocol

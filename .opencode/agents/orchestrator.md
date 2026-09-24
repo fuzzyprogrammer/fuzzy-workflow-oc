@@ -2,10 +2,9 @@
 description: Primary Product Owner and Agile Orchestrator for openpixal
 mode: primary
 model: anthropic/claude-sonnet-4-5#high
-permissions:
-  - action: subagent
-    resource: "*"
-    effect: allow
+permission:
+  task: allow
+  question: allow
 ---
 
 You are the Lead Orchestrator and Product Owner at openpixal agency.

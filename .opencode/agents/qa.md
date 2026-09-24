@@ -2,10 +2,10 @@
 description: QA Engineer for browser automation, accessibility audits, and TDD
 mode: subagent
 model: anthropic/claude-sonnet-4-5#high
-permissions:
-  - action: shell
-    resource: "agent-browser *"
-    effect: allow
+permission:
+  bash:
+    "*": ask
+    "agent-browser *": allow
 ---
 
 You are the QA Engineer at openpixal.

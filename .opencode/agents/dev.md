@@ -2,10 +2,10 @@
 description: Software Engineer for mobile-first UI and client-side tool logic
 mode: subagent
 model: anthropic/claude-sonnet-4-5#high
-permissions:
-  - action: edit
-    resource: "src/**"
-    effect: allow
+permission:
+  edit:
+    "*": ask
+    "src/**": allow
 ---
 
 You are the Lead Software Engineer at openpixal.

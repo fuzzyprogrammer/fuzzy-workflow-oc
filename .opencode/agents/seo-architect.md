@@ -2,10 +2,11 @@
 description: SEO Architect subagent for pSEO, metadata, and JSON-LD schemas
 mode: subagent
 model: anthropic/claude-sonnet-4-5#high
-permissions:
-  - action: edit
-    resource: "src/app/**"
-    effect: allow
+permission:
+  edit:
+    "*": ask
+    "src/app/**": allow
+    "public/**": allow
 ---
 
 You are the SEO Architect at openpixal (powered by fuzzyprogrammer/opencode_seo_architect and marketingskills).

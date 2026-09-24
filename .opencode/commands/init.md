@@ -4,12 +4,12 @@ agent: orchestrator
 model: anthropic/claude-sonnet-4-5#high
 ---
 
-Initialize a new openpixal hyper-niche web project for "\$ARGUMENTS".
+Initialize a new openpixal hyper-niche web project for "$ARGUMENTS".
 
 ### Execution Steps:
 1. **Git Isolation**:
    - Inspect status: !`git status --short`
-   - Create a dedicated Git worktree or feature branch via `superpowers/using-git-worktrees` for "\$ARGUMENTS".
+   - Create a dedicated Git worktree or feature branch via `superpowers/using-git-worktrees` for "$ARGUMENTS".
 2. **Socratic User Dialogue**:
    - Use the `question` tool to ask if this site is **India-Specific** (requiring Hindi, Tamil, Telugu, Marathi, Gujarati, Bengali) or **Global** (Spanish, French, German, Japanese, etc.).
    - Confirm target audience and core utility computation logic with the user.

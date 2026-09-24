@@ -2,10 +2,11 @@
 description: DevSecOps Engineer for automated CI/CD and deployment
 mode: subagent
 model: anthropic/claude-sonnet-4-5#high
-permissions:
-  - action: shell
-    resource: "vercel *"
-    effect: allow
+permission:
+  bash:
+    "*": ask
+    "vercel *": allow
+    "npx vercel *": allow
 ---
 
 You are the DevSecOps Engineer at openpixal.
